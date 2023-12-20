@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Bienvenido a la pagina de reservas del Hotel "LA PARADA"</h1>
+        <p>Donde esta página puede gestionar con total comodidad su reserva</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Tipo de Habitación</th>
+                    <th>N°de Personas</th>
+                    <th>Precio/Noche</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Doble</td>
+                    <td>2</td>
+                    <td>57&pound;</td>
+                </tr>
+                <tr>
+                    <td>Triple</td>
+                    <td>3</td>
+                    <td>12&pound;</td>
+                </tr>
+                <tr>
+                    <td>Suite</td>
+                    <td>2</td>
+                    <td>15&pound;</td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <fieldset>
+                <legend>Hotel La Parada</legend>
+                
+                Nombre : <input type="text" name="nombre" required="required">
+                
+                <br><br> 
+                
+                Apellidos: <input type="text" name="apellidos" required="required">
+                
+                <br><br> 
+                
+                E-mail: <input type="email" name="user-email" required="required">
+                
+                <br><br>
+                
+                Contraseña: <input type="password"minlength="8" name="contraseña" required="required">
+                
+                <br><br> 
+                
+                Fecha de Entrada: <input type="date" name="entrada" required="required">
+                
+                <br> 
+                
+                Fecha de Salida: <input type="date" name="salida" required="required">
+                <br><br> 
+                
+                Tipo de Habitación
+                
+                <br>
+                
+                <input type="radio" name="tipo-habitación" value="Doble" checked="check"> Doble
+                <input type="radio"name="tipo-habitación" value="Triple"> Triple
+                <input type="radio"name="tipo-habitación" value="Suite"> Suite
+                
+                <br><br> 
+                
+                Extras opcionales:
+                
+                <br> 
+                
+                <input type="checkbox" name="name" value="desayuno">Incluir desayuno(+12&pound;/dia) <br>
+                <input type="checkbox" name="name" value="parking">Parking subterraneo(+13&pound;/dia) <br>
+                
+                <br><br> 
+                
+                Comentarios sobre su reserva: 
+                
+                <br>
+                
+                <textarea name="comentario" rows="5" cols="50" placeholder="Escriba aqui sus comentarios"></textarea>
+                
+                <br><br> 
+                
+                <input type="submit" name="enviar" value="¡Reservar Ahora!">
+                <input type="reset" name="limpiar" value="Limpiar Formulario">
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
