@@ -14,18 +14,23 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Header
 */
 
+h1,h3,h4,p,tbody{
+    font-family: sans-serif;
+}
+
 header{
     background-image: url("../img/cabecera.jpg");
+    background-color:#f5f5dc;
     height: 500px;
 }
 .Navbar{
-    background-color: green;
-    margin-top: 400px;
+    background-color: grey;
+    width: 100%;
+    top: 150px; /* Ajusta la posición vertical según tus necesidades */
+    left: 0;
 }
-h1, header>p{
+h1{
     padding-top: 250px;
-}
-header>p{
 }
 
 /*
