@@ -33,16 +33,14 @@ h1{
     padding-top: 250px;
 }
 
+li{
+    display: inline; 
+}
+
 /*
     Body
 */
 
-/*
-    Footer
-*/
-li{
-    display: inline; 
-}
 .post{
     border-style: groove;
     background-color: white;
@@ -51,9 +49,19 @@ li{
 h3{
     border-bottom-style: groove;
 }
+
 main{
     background-image: url("../img/fondo.jpg");
 }
+
+
+/*
+    Footer
+*/
+
+
+
+
 
 
 
