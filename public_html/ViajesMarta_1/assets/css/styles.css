@@ -23,17 +23,18 @@ html {
     li
 */
 
-header{
+header {
     background-color: #f5f5dc;
     background-image: url("../img/cabecera.jpg");
     height: 500px;
 }
 
-li{
+li {
     display: inline;
     margin: 0 0 0 0;
 }
-.Navbar{
+
+.Navbar {
     background-color: grey;
     padding-bottom: 20px;
     padding-top: 5px;
@@ -44,19 +45,28 @@ li{
  Body
 */
 
-.post{
+.post {
     background-color: white;
     border-style: groove;
     padding: 20px 15px;
     width: 700px;
+    margin: 15px 80px;
 }
 
-h3{
+h3 {
     border-bottom: groove;
     border-bottom-width: 2px;
     padding-bottom: 10px;
 }
 
+.publicado {
+    border-bottom: groove;
+}
+
 /*
  Footer
 */
+
+fieldset {
+    background: gray;
+}
