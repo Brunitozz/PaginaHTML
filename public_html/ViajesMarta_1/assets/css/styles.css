@@ -7,4 +7,56 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : Pumapillo
 */
 
+/*
+General
+*/
 
+html {
+    font-family: sans-serif;
+}
+
+/*
+ Header
+    h1
+    p
+    .Navbar
+    li
+*/
+
+header{
+    background-color: #f5f5dc;
+    background-image: url("../img/cabecera.jpg");
+    height: 500px;
+}
+
+li{
+    display: inline;
+    margin: 0 0 0 0;
+}
+.Navbar{
+    background-color: grey;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+
+/*
+ Body
+*/
+
+.post{
+    background-color: white;
+    border-style: groove;
+    padding: 20px 15px;
+    width: 700px;
+}
+
+h3{
+    border-bottom: groove;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+}
+
+/*
+ Footer
+*/
