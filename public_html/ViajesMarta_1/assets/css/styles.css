@@ -44,24 +44,24 @@ li{
 .post{
     border-style: groove;
     background-color: white;
+    width: 634px;
+    padding: 20px 8px;
 }
 
 h3{
     border-bottom-style: groove;
 }
 
-main{
+.fondo{
     background-image: url("../img/fondo.jpg");
 }
 
+.tablaImagenes {
+    width: 400px;
+    height: 300px;
+}
 
 /*
     Footer
 */
-
-
-
-
-
-
 
