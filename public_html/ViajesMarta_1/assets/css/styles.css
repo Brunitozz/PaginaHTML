@@ -68,6 +68,17 @@ h3 {
     border-bottom: groove;
 }
 
+
+.imagenTabla {
+    height: 200px;
+    width: 300px;
+}
+
+table,
+div-header>img {
+    margin-left: 50px;
+}
+
 /*
  Footer
 */
