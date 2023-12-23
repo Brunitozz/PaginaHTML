@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
  */
-let mensaje = "Hola a Todos";
+let mensaje = "Hola a Putos";
 
 function mostrarMensaje() {
     document.write(`la variable <strong>mensaje</strong> contiene el texto <strong>${mensaje}</strong><br><br>`);
