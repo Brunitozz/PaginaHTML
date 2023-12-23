@@ -23,6 +23,11 @@ html {
     li
 */
 
+h1 {
+    padding-top: 20%;
+}
+
+
 header {
     background-color: #f5f5dc;
     background-image: url("../img/cabecera.jpg");
