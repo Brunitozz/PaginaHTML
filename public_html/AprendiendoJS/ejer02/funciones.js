@@ -4,6 +4,15 @@
  */
 let mensaje = "Hola a Putos";
 
+function NombreFuncion(mensaje) {
+    if (mensaje == "xd") {
+        let mensaje = "xddd";
+    } else {
+        mensaje = mensaje + "menos yop xp"
+    }
+    return mensaje;
+}
+
 function mostrarMensaje() {
     document.write(`la variable <strong>mensaje</strong> contiene el texto <strong>${mensaje}</strong><br><br>`);
 
