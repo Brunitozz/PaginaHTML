@@ -55,7 +55,8 @@ li {
     border-style: groove;
     padding: 20px 15px;
     width: 700px;
-    margin: 15px 80px;
+    margin:0 auto;
+    margin-top: 40px;
 }
 
 h3 {
@@ -79,6 +80,9 @@ div-header>img {
     margin-left: 50px;
 }
 
+body{
+    background-image: url("../img/fondo.jpg");
+}
 /*
  Footer
 */

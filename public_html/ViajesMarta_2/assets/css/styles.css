@@ -1,0 +1,92 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 dic. 2023, 10:34:02
+    Author     : Pumapillo
+*/
+
+/*
+General
+*/
+
+html {
+    font-family: sans-serif;
+}
+
+/*
+ Header
+    h1
+    p
+    .Navbar
+    li
+*/
+
+h1 {
+    padding-top: 20%;
+}
+
+
+header {
+    background-color: #f5f5dc;
+    background-image: url("../img/cabecera.jpg");
+    height: 500px;
+}
+
+li {
+    display: inline;
+    margin: 0 0 0 0;
+}
+
+.Navbar {
+    background-color: grey;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+
+/*
+ Body
+*/
+
+.post {
+    background-color: white;
+    border-style: groove;
+    padding: 20px 15px;
+    width: 700px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+h3 {
+    border-bottom: groove;
+    border-bottom-width: 2px;
+    padding-bottom: 10px;
+}
+
+.publicado {
+    border-bottom: groove;
+}
+
+
+.imagenTabla {
+    height: 200px;
+    width: 300px;
+}
+
+table,
+div-header>img {
+    margin-left: 50px;
+}
+
+body{
+    background-image: url("../img/fondo.jpg");
+}
+/*
+ Footer
+*/
+
+fieldset {
+    background: gray;
+}

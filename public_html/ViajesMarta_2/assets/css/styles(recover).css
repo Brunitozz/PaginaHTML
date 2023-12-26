@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 dic. 2023, 10:41:30
+    Author     : Pumapillo
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5dc;
+    background-image: url("../img/fondo.png")
+}
+
+header{
+    height: 500px;
+    border-bottom: solid 1px rgba(62,62,62,0.85);
+    background-color: #f5f5dc;
+    background-image: url("../img/cabecera.jpg");
+}
+
+header h1{
+    padding-top: 230px;
+}
+.Navbar{
+    height: 65px;
+    background-color: rgba(32,47,85,0.85);
+    border-bottom: solid 1px rgba(62,62,62,0.85);
+}
+
+.Navbar li{
+    display: inline; 
+}
+
+.Navbar ul{
+    padding-top: 12px;
+}
+
+.post{
+    width: 1000px;
+    margin: 20px auto 30px;
+    padding: 25px;
+    border: solid 1px rgba(143,143,143, 0.43);
+    background-color: white;
+    
+}
+
+.div-header{
+   margin-top: 30px;
+}
+
+.div-header h3{
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgba(143,143,143, 0.43);
+}
+
+.div-header img{
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.div-header .publicado{
+    border-bottom: solid 1px rgba(143,143,143, 0.43);
+    padding-bottom: 10px;
+}
+
+.div-body{
+    padding: 20px 0;
+}
+
+.div-body p{
+    margin: 7px 0;
+}
+
+footer{
+    background-color: rgb(62,62,62);
+}
+
+footer h4{
+    padding-top: 16px; 
+}

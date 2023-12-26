@@ -1,0 +1,35 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 dic. 2023, 11:27:40
+    Author     : Pumapillo
+*/
+*{
+    font-family: 'Noto Sans KR', serif;
+}
+
+h1{
+    font-size: 50px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: normal;
+    font-style: oblique;
+}
+p{
+    font-size: 16px;
+}
+
+.textotransformado{
+    text-transform: capitalize;
+}
+
+.textodecorado{
+    text-decoration: none;
+}
