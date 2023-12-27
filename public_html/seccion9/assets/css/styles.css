@@ -1,0 +1,28 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 dic. 2023, 19:16:32
+    Author     : Pumapillo
+*/
+
+*{
+    font-family: sans-serif;
+}
+
+ol{
+    list-style-type: lower-greek;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.listaticks{
+    list-style-type: disc;
+/*    list-style-image: url("../img/check.png");
+    width: 20px;  Cambia el valor según el tamaño que desees 
+    height: 20px;  Ajusta la altura si es necesario 
+    margin-right: 5px;  Espaciado entre el icono y el texto de la lista, si es necesario */
+}
