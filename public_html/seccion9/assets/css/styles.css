@@ -20,9 +20,97 @@ ul{
     list-style-position: inside;
 }
 .listaticks{
-    list-style-type: disc;
-/*    list-style-image: url("../img/check.png");
-    width: 20px;  Cambia el valor según el tamaño que desees 
-    height: 20px;  Ajusta la altura si es necesario 
-    margin-right: 5px;  Espaciado entre el icono y el texto de la lista, si es necesario */
+    list-style-image: url("../img/check.png");
+}
+
+form fieldset{
+    width: 300px;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 20px;
+}
+
+form fieldset label{
+    display: block;
+    margin: 0;
+}
+
+form fieldset input{
+    border: none;
+    border-bottom: 1px solid rgb(62,62,62);
+    width: 100%;
+    font-size: 1.2em;
+    color: #777;
+}
+
+form fieldset textarea{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #777;
+    font-size: 1.2em;
+}
+
+form legend{
+    background-color: #efefef;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* El enlace en un estado natural */
+a:link{
+    color: yellowgreen;
+}
+
+/* Cuando el enlace se le a hecho clic y cambia de color */
+a:visited{
+    color: brown;
+}
+/* Cuando se coloca el puntero encima del enlace */
+a:hover{
+    color: aqua;
+    font-size: 3em;
+    border: 2px solid crimson;
+}
+
+/* Cuando se le da clic al enlace */
+a:active{
+    background-color: red;
+}
+
+
+table {
+    width: 800px;
+    
+}
+th ,th {
+    padding: 10px;
+}
+
+th{
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid #111;
+    border-top: 2px solid #cdcdcd;
+    text-align: left;
+}
+
+table .oscura{
+    background-color: #ebebeb;
+}
+
+tr:hover{
+    background-color: aqua;
 }
