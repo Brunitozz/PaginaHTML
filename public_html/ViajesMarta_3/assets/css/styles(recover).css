@@ -3,9 +3,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
 */
 /* 
-    Created on : 26 dic. 2023, 18:45:14
+    Created on : 26 dic. 2023, 10:41:30
     Author     : Pumapillo
 */
+
 *{
     margin: 0;
     padding: 0;
@@ -110,74 +111,99 @@ footer{
 
 footer h4{
     padding-top: 16px; 
-    padding-bottom: 30px;
     font-family: 'Waiting for the Sunrise', cursive;
     text-align: center;
     font-size: 28px;
 }
 
-.Navbar a{
+/*Seccion*/
+
+a{
     text-decoration: none;
+    font-weight: bold;
+}
+
+.Navbar a{
     color: white;
 }
 
 .Navbar a:hover{
-    color:rgb(32,47,85);
+    color: rgb(210, 210, 210);
 }
 
-.publicado a{
-    text-decoration: none;
-    font-weight: 800;
-    color: rgb(0,0,0);
-}
-.publicado a:active{
-    text-decoration: none;
-    font-weight: 800;
-    color: #FFD800;
-}
- 
-table{
-    margin: auto;
+.post a{
+    color: rgb(70,70,70);
 }
 
-th, td{
-    text-align: center;
-    padding: 0 10px;
+.posta a:active{
+    color: orange;
 }
 
-th{
-    border-bottom: 2px solid #111;
-}
-
-.precios tr:hover{
-    background-color: #D9DDDC;
-}
-form fieldset{
-    display: block;
+.post table{
+    margin: 0 auto;
     text-align: center;
 }
 
-form fieldset label{
-    display: block;
-    padding-top: 20px;
+#post1 table{
+    padding: 10px;
 }
 
-#nombre, #email{
+#post1 table td, #post1 table th{
+    padding: 2px 20px;
+}
+
+#post1 table th{
+    border-bottom: 2px solid black;
+}
+#post1 table tr:hover{
+    background-color: #EDEDED;
+}
+
+#post2 table{
+    margin-top: 20px;
+}
+
+/* Formulario */
+
+footer form fieldset{
     border: none;
-    background-color: rgb(62,62,62);
+    padding: 10px 10px 20px;
+}
+
+footer form{
+    text-align: center;
+}
+
+footer fieldset form label{
+    padding: 0 0 30px;
+}
+
+footer form input[type=text], footer form input[type=email]{
+    background-color: rgba(0, 0, 0, 0); 
+    border: none;
     border-bottom: 1px solid white;
-    font-size: 1.2em;
     color: white;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 22px;
+    width: 300px;
 }
 
-#subcripcion{
+footer form input:focus{
+    outline: none;
+}
+
+footer form input[type=submit]{
+    margin-top: 20px;
+    border: solid 1px white;
     border-radius: 10px;
-    padding: 5px 10px; 
-    margin-bottom: 20px;
-    background-color: cadetblue;
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px 5px;
+    background-color: rgb(70,70,70);
+    text-decoration: none;
+    
 }
 
-#subcripcion:hover{
-    background-color: rgb(32,47,85);
+footer form input[type=submit]:hover{
+    background-color:#7d7d77;
 }

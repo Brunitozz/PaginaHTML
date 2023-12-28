@@ -11,7 +11,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     <title>TODO supply a title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/newcss(recover).css" rel="stylesheet" type="text/css"/>
+<!--    <link href="assets/css/newcss(recover).css" rel="stylesheet" type="text/css"/>-->
+    <link href="assets/css/styles(recover).css" rel="stylesheet" type="text/css"/>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,7 +72,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                     nunc mi sit amet dolor. Etiam id justo sollicitudin, imperdiet nisi nec, porta ex. Praesent
                     dignissim
                     risus nec augue accumsan, vel eleifend tellus mollis. Sed vitae malesuada purus.</p>
-                <table border="0">
+                <table class="precios" border="0">
                     <thead>
                         <tr>
                             <th>Compras</th>
@@ -163,15 +164,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <h4>¡Subscribete a la Newsletter mensual para no perderte ningun viaje!</h4>
         <form>
             <fieldset>
-
-                Nombre <input type="text" id="nombre">
-                Email <input type="email" id="email">
-                <br>
-                Acepto las condiciones de la subscripción.<input type="checkbox" id="acepo" name="name"
-                    value="Acepto Las condiciones de la subs">
-                <br>
-                <input type="submit" value="¡Suscribete!">
-
+                
+                <label> Nombre: <input type="text" id="nombre"> </label>
+                <label> Email: <input type="email" id="email"> </label>                
+                <br><br>
+                
+                <label> Acepto las condiciones de la subscripción.
+                    <input type="checkbox" id="acepo" name="name" value="Acepto Las condiciones de la subs">
+                </label>
+                    
+                <br><br>
+                    
+                <input id="subcripcion" type="submit" value="¡Suscribete!">
+                
             </fieldset>
         </form>
     </footer>
